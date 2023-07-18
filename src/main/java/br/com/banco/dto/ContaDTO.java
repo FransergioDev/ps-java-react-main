@@ -39,7 +39,6 @@ public class ContaDTO {
 
 	public ContaDTO convert(ContaEntity contaEntity) {
 		BeanUtils.copyProperties(contaEntity, this, "getId", "getNomeResponsavel");
-		System.out.println(this.getNomeResponsavel());
 		return this;
 	}
 	

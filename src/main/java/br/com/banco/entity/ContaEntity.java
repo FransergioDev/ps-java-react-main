@@ -30,7 +30,7 @@ public class ContaEntity implements Serializable {
 	@Column(name = "nome_responsavel")
     @JsonProperty("nome_responsavel")
 	private String nomeResponsavel;
-	
+
 	public Long getId() {
 		return id;
 	}
@@ -46,4 +46,5 @@ public class ContaEntity implements Serializable {
 	public static long getSerialversionuid() {
 		return serialVersionUID;
 	}
+	
 }
